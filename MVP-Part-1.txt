@@ -1,0 +1,6 @@
+Study the code base and identify both responsive units and where media queries were used. Take notes on anything that confuses you or interesting things you find. Share this information in your standup meeting with your group.
+
+-noticed how they didn't set the html font-size to 62.5%; instead opted to use 16pt
+-added the viewport code in the beginning for all media queries to have responsive pages
+-used rem for media queries
+-widths are using calc (%'s - rems) // otherwise %'s are not used in the css 
